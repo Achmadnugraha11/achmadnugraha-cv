@@ -78,7 +78,7 @@ section {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 5rem;
+    padding: 0 3rem;
 }
 
 .hero .hero-pict {
@@ -331,7 +331,7 @@ footer .text {
     }
 
     .card .btn {
-        padding: 4px 6px;
+        padding: 5px 6px;
         font-size: 11px;
     }
 }
