@@ -79,6 +79,7 @@ section {
     justify-content: space-around;
     align-items: center;
     padding: 0 2rem;
+    margin-top: 5rem;
 }
 
 .hero .hero-pict {
@@ -129,7 +130,9 @@ section {
 }
 
 .hero-text .btn {
-    border: 1.6px solid #e1e1e1;
+    display: block;
+    position: absolute;
+    border: none;
     background-color: var(--text-color-2);
     color: #fbf8f8;
     padding: 1rem 1.5rem;
