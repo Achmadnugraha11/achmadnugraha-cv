@@ -7,7 +7,7 @@
     --bg-main: rgb(253, 250, 250);
     --shadow: rgba(95, 95, 95, 0.2) 0px 0px 6px 0px;
     --title-color: #9e9d9d;
-    --text-color-1: #515050;
+    --text-color-1: #656464;
     --text-color-2: #e4920c;
 }
 
@@ -66,23 +66,27 @@ body {
     display: none;
 }
 
+.menu {
+    font-size: 2.7rem;
+}
+
 section {
-    padding-top: 6rem;
+    padding-top: 6.3rem;
 }
 
 .hero {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* padding: 5rem; */
+    padding: 5rem;
 }
 
 .hero .hero-pict {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     /* border: 3px #696969 solid; */
     box-shadow: var(--shadow);
@@ -203,32 +207,27 @@ section {
 .project .card-body p {
     text-align: left;
     color: var(--text-color-1);
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
 }
 
 .card .tag {
-    display: flex;
-    gap: 0.7rem;
+    text-align: left;
     color: var(--text-color-1);
-    padding: 5px;
+    padding: 5px 5px;
 }
 
-.card .tag-1 {
-    border: 1px solid #5f5f5f;
-    padding: 3px 7px;
+.tag-1,
+.tag-2 {
+    border: 1px solid #b6b6b6;
     border-radius: 3px;
+    padding: 4px;
 }
 
-.card .tag-2 {
-    border: 1px solid #5f5f5f;
-    padding: 3px 7px;
-    border-radius: 3px;
-}
-
-.card .tag .btn {
+.card .btn {
     border: none;
     background-color: var(--text-color-2);
     padding: 6px 8px;
+    /* margin: 5px; */
     border-radius: 3px;
     color: white;
     cursor: pointer;
@@ -245,6 +244,7 @@ section {
 
 .sosial-media a {
     text-decoration: none;
+    color: var(--text-color-1);
 }
 
 .sosial-media .linked {
@@ -266,25 +266,26 @@ footer .text {
 }
 
 .text p {
-    font-size: 1rem;
+    font-size: 1.3rem;
     text-align: center;
 }
 
 /* media query */
 @media (max-width: 1366px) {
     html {
-        font-size: 80%;
+        font-size: 82%;
     }
 }
 
 /* tablet */
 @media (max-width: 768px) {
     html {
-        font-size: 70.5%;
+        font-size: 73.5%;
     }
 
     #hamburger-menu {
         display: block;
+        font-size: 1.4rem;
     }
 
     .navbar .navbar-nav {
@@ -322,17 +323,21 @@ footer .text {
         flex-direction: column;
         flex-wrap: wrap;
         /* margin-top: 4rem; */
-        padding-top: 1rem;
+        padding-top: 4.5rem;
     }
 
     .hero-text {
         padding: 2.2rem;
     }
 
+    .card .btn {
+        padding: 4px 6px;
+        font-size: 11px;
+    }
 }
 
 @media (max-width: 549px) {
     html {
-        font-size: 50%;
+        font-size: 60%;
     }
 }
