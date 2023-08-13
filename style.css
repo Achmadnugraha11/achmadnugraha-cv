@@ -5,7 +5,7 @@
 
 :root {
     --bg-main: rgb(253, 250, 250);
-    --shadow: rgba(95, 95, 95, 0.2) 0px 0px 9px 1px;
+    --shadow: rgba(95, 95, 95, 0.2) 0px 0px 6px 0px;
     --title-color: #9e9d9d;
     --text-color-1: #515050;
     --text-color-2: #e4920c;
@@ -31,10 +31,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 5%;
+    padding: 1.5rem 4rem;
     position: fixed;
     background-color: var(--bg-main);
-    /* box-shadow: var(--shadow); */
+    box-shadow: var(--shadow);
     top: 0;
     left: 0;
     right: 0;
@@ -51,7 +51,7 @@ body {
 .navbar .navbar-nav a {
     color: var(--text-color-1);
     display: inline-block;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin: 0 0.7rem;
     text-decoration: none;
     font-weight: bold;
@@ -119,8 +119,9 @@ section {
 
 .hero-text p {
     color: var(--text-color-1);
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     padding-bottom: 15px;
+    font-weight: 500;
 }
 
 .hero-text .btn {
@@ -137,7 +138,7 @@ section {
 }
 
 .hero-text .btn:hover {
-    transform: scale(1.1);
+    background-color: #e5aa05;
 }
 
 /* aboutme */
@@ -152,7 +153,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: var(--text-color-1);
     justify-content: center;
     align-items: center;
